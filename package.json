@@ -1,0 +1,17 @@
+{
+  "name": "express",
+  "version": "0.0.1",
+  "description": "Learn backend with a todo app",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "clean": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "express": "4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
