@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres
+    container_name: express
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: express
+      POSTGRES_PASSWORD: express
+      POSTGRES_DB: express
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
