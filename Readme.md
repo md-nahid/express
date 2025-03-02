@@ -1,8 +1,17 @@
 # Learn Backend
 
-Learn backend from scratch. Build a full stack todo app.
+### To run this project
 
-- Express
-- Prisma
-- Postgresql
-- Javascript
+First set up the env file.
+
+Now run these commands serially.
+
+```
+docker compose up -d
+
+pnpm install
+
+pnpm dev
+
+
+```
